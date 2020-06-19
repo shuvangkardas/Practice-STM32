@@ -1,0 +1,31 @@
+# Ignore all
+# *
+# Unignore Makefiles recursively
+# !*/Makefile
+
+#Exclude directoties and content
+**/RTE/*
+**/Objects/*
+**/Listings/*
+**/DebugConfig/*
+
+# User-specific uVision files
+*.opt
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.uvguix.*
+*.uvprojx
+*.scvd
+
+# # Unignore c files
+# !*.c
+
+# #Unignore  h files
+# !*.h
+
+# #Unignore md file
+# !*.md
+# #Unignore all directory
+# !*/
